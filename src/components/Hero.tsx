@@ -32,11 +32,11 @@ const Hero = () => {
                     <User className="w-24 h-24 text-primary/50" />
                   </div>
                   {/* Uncomment and add actual image when available */}
-                    <img 
-                    src="/Karthick_raja.jpeg" 
-                    alt="Karthick Raja" 
-                    className="w-full h-full object-cover"
-                  /> 
+                    <img
+  src={profileImg}
+  alt="Karthick Raja"
+  className="w-full h-full object-cover"
+/>
                 </div>
                 <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-gradient-to-r from-primary to-glow-secondary rounded-full flex items-center justify-center animate-pulse">
                   <span className="text-xs font-bold text-primary-foreground">9+</span>

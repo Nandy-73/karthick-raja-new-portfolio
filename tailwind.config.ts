@@ -55,6 +55,9 @@ export default {
         charcoal: "hsl(var(--charcoal))",
         slate: "hsl(var(--slate))",
         glow: "hsl(var(--glow))",
+        "glow-secondary": "hsl(var(--glow-secondary))",
+        "glow-tertiary": "hsl(var(--glow-tertiary))",
+        "glow-quaternary": "hsl(var(--glow-quaternary))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

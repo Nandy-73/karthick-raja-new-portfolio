@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, MapPin, Mail, Linkedin, User } from "lucide-react";
+import { ArrowDown, MapPin, Mail, Linkedin } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -26,20 +26,20 @@ const Hero = () => {
             >
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary via-glow-secondary to-glow-tertiary rounded-full blur-lg opacity-60 group-hover:opacity-100 transition-opacity duration-500" />
-                <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-background bg-card flex items-center justify-center">
 
-
-                  {/* Uncomment and add actual image when available */}
+                <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-background bg-card">
                   <img
-                    src="/Karthick_raja.jpeg"
+                    src={`${import.meta.env.BASE_URL}Karthick_raja.jpeg`}
                     alt="Karthick Raja"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-center rounded-full"
                   />
                 </div>
+
                 <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-gradient-to-r from-primary to-glow-secondary rounded-full flex items-center justify-center animate-pulse">
                   <span className="text-xs font-bold text-primary-foreground">9+</span>
                 </div>
               </div>
+
             </motion.div>
 
             {/* Text Content */}

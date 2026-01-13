@@ -5,7 +5,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/karthick-raja-portfolio/",   // ✅ MUST MATCH REPO NAME
+  base: "/",   // ✅ Change to "/karthick-raja-portfolio/" for GitHub Pages deployment
   server: {
     host: "::",
     port: 8080,

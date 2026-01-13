@@ -6,13 +6,13 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Grid Pattern */}
       <div className="absolute inset-0 grid-pattern opacity-30" />
-      
+
       {/* Gradient Orbs - Multiple Colors */}
       <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-primary/15 rounded-full blur-[120px] animate-glow" />
       <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-glow-secondary/15 rounded-full blur-[100px] animate-glow" style={{ animationDelay: "1s" }} />
       <div className="absolute top-1/2 right-1/3 w-[300px] h-[300px] bg-glow-tertiary/10 rounded-full blur-[80px] animate-glow" style={{ animationDelay: "2s" }} />
       <div className="absolute bottom-1/3 left-1/3 w-[350px] h-[350px] bg-glow-quaternary/10 rounded-full blur-[90px] animate-glow" style={{ animationDelay: "1.5s" }} />
-      
+
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 py-20">
         <div className="max-w-5xl mx-auto">
@@ -27,16 +27,14 @@ const Hero = () => {
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary via-glow-secondary to-glow-tertiary rounded-full blur-lg opacity-60 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-background bg-card flex items-center justify-center">
-                  {/* Placeholder for profile image */}
-                  <div className="w-full h-full bg-gradient-to-br from-primary/20 via-glow-secondary/20 to-glow-tertiary/20 flex items-center justify-center">
-                    <User className="w-24 h-24 text-primary/50" />
-                  </div>
+
+
                   {/* Uncomment and add actual image when available */}
-                    <img
-  src={profileImg}
-  alt="Karthick Raja"
-  className="w-full h-full object-cover"
-/>
+                  <img
+                    src="/Karthick_raja.jpeg"
+                    alt="Karthick Raja"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-gradient-to-r from-primary to-glow-secondary rounded-full flex items-center justify-center animate-pulse">
                   <span className="text-xs font-bold text-primary-foreground">9+</span>
